@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import './AppMobile.css'
-import Header from './Components/Header.jsx'
+import Header from './components/Header.jsx'
 import Splash from './Components/Splash.jsx'
 
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Splash/>
-      <Header />
+      <Header/>
       <Outlet/>
 
     </>
