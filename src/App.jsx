@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import './AppMobile.css'
-import Header from './Components/Header'
-import Splash from './Components/Splash'
+import Header from './Components/Header.jsx'
+import Splash from './Components/Splash.jsx'
 
 
 import { Outlet} from 'react-router-dom'
