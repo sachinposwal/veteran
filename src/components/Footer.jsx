@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link,NavLink} from 'react-router-dom'
 import a from '../Images/a.png'
-import PopupForm from './PopupForm.jsx';
+import Form from './PopupForm.jsx'
 
 function Footer() {
 
@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
 
-<PopupForm active={popupActive} setActive={setPopupActive} />
+<Form active={popupActive} setActive={setPopupActive} />
 
 
     <div className="fcontainer">
