@@ -2,7 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './AppMobile.css'
-import { Home, About, Employers, Services, Openings, Plans} from './Components/index.jsx'
+import Home from './components/Home.jsx'
+import Employers from './components/Employers.jsx'
+import Services from './components/Services.jsx'
+import Openings from './components/Openings.jsx'
+import About from './components/About.jsx'
+import Plans from './components/Plans.jsx'
+
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
