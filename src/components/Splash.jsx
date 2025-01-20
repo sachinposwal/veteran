@@ -23,7 +23,7 @@ function Splash() {
 
   return (
     <div>
-      {showSplash && <SplashScreen />}
+      {showSplash && <SplashScreen/>}
     </div>
   );
 }

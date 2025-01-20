@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './AppMobile.css'
 import Header from './components/Header.jsx'
-import Splash from './Components/Splash.jsx'
+import Splash from './components/Splash.jsx'
 
 
 import { Outlet} from 'react-router-dom'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Splash/>
+      <Splash/>
       <Header/>
       <Outlet/>
 
