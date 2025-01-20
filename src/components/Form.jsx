@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { sendEmail } from './Email';
 
-function Popupform({ active, setActive }) {
+function Form({ active, setActive }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -80,4 +80,4 @@ function Popupform({ active, setActive }) {
   );
 }
 
-export default Popupform;
+export default Form;

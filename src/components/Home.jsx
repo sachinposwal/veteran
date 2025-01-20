@@ -8,7 +8,7 @@ import Testimonials from './Testimonials.jsx';
 import Employers from './Employers.jsx';
 import Footer from './Footer.jsx';
 import Displaybar from './Displaybar.jsx';
-import PopupForm from './PopupForm.jsx';
+import Form from './Form.jsx';
 import w from '../Images/w.png';
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <>
-      <PopupForm active={popupActive} setActive={setPopupActive} />
+      <Form active={popupActive} setActive={setPopupActive}/>
 
       <div className="home">
         <div className="text-portion">

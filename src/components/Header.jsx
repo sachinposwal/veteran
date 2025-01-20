@@ -2,7 +2,7 @@ import React from 'react'
 import {Link,NavLink} from 'react-router-dom'
 import logo from '../Images/logo.png'
 import { useEffect,useState } from 'react'
-import PopupForm from './PopupForm.jsx';
+import Form from './Form.jsx';
 
 
 
@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <>
-    <PopupForm active={popupActive} setActive={setPopupActive} />
+    <Form active={popupActive} setActive={setPopupActive} />
 
     <nav className="navbar" id="navbar">
         <div className="logo">

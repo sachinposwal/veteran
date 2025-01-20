@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import PopupForm from './PopupForm.jsx';
+import Form from './Form.jsx';
+
+
 
 function Plans() {
 
@@ -10,7 +12,7 @@ function Plans() {
   return (
     <>
 
-<PopupForm active={popupActive} setActive={setPopupActive} />
+<Form active={popupActive} setActive={setPopupActive} />
 
 
         <h2 className="services-heading">Start Your Journey Now</h2>
