@@ -28,9 +28,9 @@ function Home() {
             <div className="bar1"></div>
             <div className="bar2"></div>
           </div>
-          <h2>
+          <h3>
             We handle every step of your transition from military service to a corporate career. From career assessments with action plans and domain-specific resumes to job application and LinkedIn management, upskilling, interview prep, and more, we ensure a seamless, stress-free journey to your next career.
-          </h2>
+          </h3>
           <div className="button-container">
             <button className="btn" onClick={() => setPopupActive(true)}>
               Get Started

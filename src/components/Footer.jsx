@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link,NavLink} from 'react-router-dom'
 import a from '../Images/a.png'
-import Form from './PopupForm.jsx'
+import Form from './Form.jsx'
 
 function Footer() {
 
@@ -24,7 +24,7 @@ function Footer() {
         <p>Copyright © The Veteran Company</p>
         <div className="contact">
             <img src={a} alt="Email Icon" className="email-icon"/>
-            <Link to="mailto:support@bharatveteran.com">support@theveterancompany.com</Link>
+            <Link to="mailto:support@theveterancompany.com">support@theveterancompany.com</Link>
         </div>
     </footer>
     </>
