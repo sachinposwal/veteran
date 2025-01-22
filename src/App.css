@@ -136,13 +136,14 @@
     margin-bottom: 3vh;
 }
 .home p{
-  width: 26vw;
+  width: 27vw;
   background-color: rgb(225, 226, 228);
   border-radius: 15px;
   font-size: 3vh;
   font-weight: 300;
   padding:1px 20px;
   margin-bottom:2vh ;
+  text-align: center;
 }
 .bar{
     display: flex;
@@ -167,6 +168,7 @@
     font-weight: 300;
     font-size: 2vh;
     margin-bottom: 2vh ;
+    
 }
 .button-container{
   display: flex;
@@ -280,6 +282,51 @@
   line-height: 1.6;
   font-size: 2.3vh;
   text-align: justify;
+}
+
+
+
+.need {
+  padding: 4vh 0;
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  background-color: #d5f1e4;
+  margin-bottom: 4vh;
+}
+
+.need-container {
+  width: 80vw;
+  padding: 20px;
+  text-align: left;
+  
+}
+
+.need-text {
+  font-size: 3vh;
+  line-height: 1.8;
+  color: #333;
+}
+
+.need-highlight {
+  font-weight: bold;
+  color: #000;
+}
+
+.need-footer {
+  color: #218838;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 3vh;
+  font-weight: 400;
+  width: 20vw;
+  text-align: center;
+}
+.need-footer img{
+  height: 5vh;
+  vertical-align: middle;
 }
 
 

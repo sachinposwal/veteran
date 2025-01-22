@@ -9,6 +9,7 @@ import Employers from './Employers.jsx';
 import Footer from './Footer.jsx';
 import Displaybar from './Displaybar.jsx';
 import Form from './Form.jsx';
+import Need from './Need.jsx';
 import w from '../Images/w.png';
 
 function Home() {
@@ -52,6 +53,7 @@ function Home() {
 
       <Displaybar />
       <About />
+      <Need/>
       <Services />
       <Plans />
       <Employers />

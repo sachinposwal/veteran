@@ -22,7 +22,7 @@ function Plans() {
 
 
         <div className="pricing-card silver">
-            <h4 className="plan-title ">Starter Pack</h4>
+            <h4 className="plan-title ">Starter Plan</h4>
             <div className="plan-price">
                 <span className="currency">₹</span><span className="amount">3,599</span>
                 <span className="duration">one-time</span>
@@ -40,7 +40,7 @@ function Plans() {
         </div>
 
         <div className="pricing-card gold">
-            <h4 className="plan-title gp">Grow Pack</h4>
+            <h4 className="plan-title gp">Grow Plan</h4>
             <div className="plan-price">
                 <span className="currency">₹</span><span className="amount">5,899</span>
                 <span className="duration">monthly</span>
@@ -51,10 +51,10 @@ function Plans() {
             </p>
     
             <ul className="plan-options">
-                <li>Target <b>60</b> Jobs with Custom Resumes</li>
+                <li>Target <b>30-60</b> Jobs with Custom Resumes</li>
+                <li><b>30</b> LinkedIn Connections & Networking Weekly</li>
                 <li>Application Tracking & Follow-Ups</li>
                 <li>LinkedIn, Naukri & Job Portal Management</li>
-                <li><b>30</b> LinkedIn Connections & Networking Weekly</li>
                 <li><b>2</b> Interview Prep Sessions/Month</li>
                 <li><b>1</b> Post Weekly for Engagement</li>
                 <li>Continuous Updates on Progress</li>
