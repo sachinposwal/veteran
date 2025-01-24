@@ -33,6 +33,7 @@ function Plans() {
             </p>
         
             <ul className="plan-options">
+                <li>Career Consultation </li>
                 <li>Career Assessment </li>
                 <li>Resume Building </li>
                 <li>LinkedIn profile Setup & optimization</li>

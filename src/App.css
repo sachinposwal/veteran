@@ -379,7 +379,7 @@
   .services-card:nth-child(4){
     background: #d5f1e4;
   }
-  .services-card:nth-child(4)::after,.services-card:nth-child(5)::after {
+  .services-card:nth-child(5)::after,.services-card:nth-child(6)::after {
     content: 'First in Class'; /* Text to display */
     position: absolute;
     top: 10px; /* Adjust as needed for placement */
@@ -397,6 +397,9 @@
     background: #d5f1e4;
   }
   .services-card:nth-child(6){
+    background: #d5f1e4;
+  }
+  .services-card:nth-child(7){
     background: #d5f1e4;
   }
   .services-card:hover {
