@@ -15,32 +15,32 @@ function Services() {
         <p className="services-description">30-minute personalized consultation with industry leaders to guide veterans in their next career move.</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic1">2</div>
+        <div className="services-icon ic2">2</div>
         <h2 className="services-title">Career Assessment</h2>
         <p className="services-description">Evaluate strengths, identify skill gaps, and develop a clear roadmap for success.</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic2">3</div>
+        <div className="services-icon ic3">3</div>
         <h2 className="services-title">Resume Building</h2>
         <p className="services-description">Create sharp, job-specific resumes that pass ATS checks and catch employers’ eyes.</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic3">4</div>
+        <div className="services-icon ic4">4</div>
         <h2 className="services-title">LinkedIn Enhancement</h2>
         <p className="services-description">Build and optimize your LinkedIn presence to attract top corporate recruiters.</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic4">5</div> 
+        <div className="services-icon ic5">5</div> 
         <h2 className="services-title">LinkedIn & Job Portal Management </h2>
         <p className="services-description">Handle platforms like LinkedIn and Naukri for a professional and active profile.</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic5">6</div>
+        <div className="services-icon ic6">6</div>
         <h2 className="services-title">Job Search & Application Management</h2>
         <p className="services-description">Find the right roles, apply early with Customized CVs, and connect with hiring teams—end-to-end support!</p>
       </div>
       <div className="services-card">
-        <div className="services-icon ic6">7</div>
+        <div className="services-icon ic7">7</div>
         <h2 className="services-title">Interview Preparation</h2>
         <p className="services-description">Ace interviews with personalized coaching and mock sessions.</p>
       </div>
