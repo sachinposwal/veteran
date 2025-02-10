@@ -24,7 +24,7 @@ function Footer() {
         <p>Copyright © The Veteran Company</p>
         <div className="contact">
             <img src={a} alt="Email Icon" className="email-icon"/>
-            <Link to="mailto:support@theveterancompany.com">support@theveterancompany.com</Link>
+            <Link to="mailto:support@theveterancompany.in">support@theveterancompany.in</Link>
         </div>
     </footer>
     </>
