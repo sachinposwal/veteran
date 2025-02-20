@@ -178,6 +178,7 @@
 .home .btn {
     margin-top: 3vh;
     width: 12vw;
+    border-radius: 30px;
 }
 .btn-w{
   text-decoration: none;
