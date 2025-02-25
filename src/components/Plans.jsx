@@ -52,7 +52,6 @@ function Plans() {
             </p>
     
             <ul className="plan-options">
-                <li>Everything in Starter Plan <b>+</b></li>
                 <li>Target <b>30-60</b> Jobs with Custom Resumes</li>
                 <li><b>30</b> LinkedIn Connections & Networking Weekly</li>
                 <li>Application Tracking & Follow-Ups</li>
