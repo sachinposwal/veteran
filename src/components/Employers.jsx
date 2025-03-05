@@ -3,7 +3,7 @@ import img1 from '../Images/employers.png'
 
 function Employers() {
     const sendEmail = () => {
-        window.location.href = 'mailto:sachinposwal@theveterancompany.com';
+        window.location.href = 'mailto:sachinposwal@theveterancompany.in';
       };
 
   return (
