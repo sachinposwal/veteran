@@ -43,16 +43,17 @@ function Plans() {
         <div className="pricing-card gold">
             <h4 className="plan-title gp">Grow Plan</h4>
             <div className="plan-price">
-                <span className="currency"></span><span className="amount">Talk To Us</span>
+                <span className="currency"></span><span className="amount"></span>
                 <span className="duration"></span>
             </div>
-            <button className="choose-button" onClick={()=> setPopupActive(true)} >Enroll Now</button>
+            <button className="choose-button" onClick={()=> setPopupActive(true)} >Talk to Us</button>
             <p className="description">
             Comprehensive support to help you scale and secure your dream job.
             </p>
     
             <ul className="plan-options">
-                <li>Target <b>30-60</b> Jobs with Custom Resumes</li>
+                <li>We apply for Jobs on your behalf</li>
+                <li>We build Custom CV for each Job</li>
                 <li><b>30</b> LinkedIn Connections & Networking Weekly</li>
                 <li>Application Tracking & Follow-Ups</li>
                 <li>LinkedIn, Naukri & Job Portal Management</li>
