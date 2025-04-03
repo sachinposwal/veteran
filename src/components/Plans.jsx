@@ -24,8 +24,8 @@ function Plans() {
         <div className="pricing-card silver">
             <h4 className="plan-title ">Starter Plan</h4>
             <div className="plan-price">
-                <span className="currency">₹</span><span className="amount">7,499</span>
-                <span className="duration">one-time</span>
+                {/* <span className="currency">₹</span><span className="amount">7,499</span> */}
+                {/* <span className="duration">one-time</span> */}
             </div>
             <button className="choose-button" onClick={()=> setPopupActive(true)}>Enroll Now</button>
             <p className="description">
