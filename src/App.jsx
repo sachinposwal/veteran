@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './AppMobile.css'
 import Header from './components/Header.jsx'
+import { Analytics } from "@vercel/analytics/next"
 
 
 import { Outlet} from 'react-router-dom'
