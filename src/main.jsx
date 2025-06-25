@@ -8,6 +8,7 @@ import Services from './components/Services.jsx'
 import Openings from './components/Openings.jsx'
 import About from './components/About.jsx'
 import Plans from './components/Plans.jsx'
+import { Analytics } from "@vercel/analytics/react"
 
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
         path:'/Openings',
         element:<Openings/>
       },
-    ]
+    ],
   }
 ])
 
@@ -49,6 +50,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}>
     <App />
+    <Analytics/>
     </RouterProvider>
   </StrictMode>,
 )
