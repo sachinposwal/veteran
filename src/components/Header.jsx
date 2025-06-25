@@ -37,7 +37,7 @@ function Header() {
             <li><NavLink to='About' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>About us</NavLink></li>
             <li><NavLink to='/Services' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Services</NavLink></li>
             <li><NavLink to='/Employers' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>For Employers</NavLink></li>
-            <li><NavLink to='/Plans' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Plans</NavLink></li>
+            {/* <li><NavLink to='/Plans' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Plans</NavLink></li> */}
             {/* <li><NavLink to='/Openings' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Job Openings</NavLink></li>*/}
             <li><button className='btn' onClick={() => {setPopupActive(true);toggleMenu(); } }>Get Started</button></li>
         </ul>

@@ -55,7 +55,7 @@ function Home() {
       <About />
       <Need/>
       <Services />
-      <Plans />
+      {/* <Plans /> */}
       <Employers />
       <Footer />
     </>
