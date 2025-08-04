@@ -16,7 +16,15 @@ function Footer() {
         <div className="fcontent">
         <h1>Excited to Get Started?</h1>
         <p>Join us today and explore the endless possibilities ahead!</p>
-        <button className="btn" onClick={()=> setPopupActive(true)} >Reach Out</button>
+        <a
+  href="https://wa.me/+917042240012?text=Hi%21%20I%20am%20interested%20in%20your%20Services."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn"
+  style={{ textDecoration: 'none' }}
+>
+  Reach Out
+</a>
 
         </div>
     </div>
