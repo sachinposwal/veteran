@@ -33,9 +33,9 @@ function Home() {
             We handle every step of your transition from military service to a corporate career. From career assessments with action plans and domain-specific resumes to job application and LinkedIn management, upskilling, interview prep, and more, we ensure a seamless, stress-free journey to your next career.
           </h3>
           <div className="button-container">
-            <button className="btn" onClick={() => setPopupActive(true)}>
+            {/* <button className="btn" onClick={() => setPopupActive(true)}>
               Get Started
-            </button>
+            </button> */}
             <Link
               className="btn btn-w"
               to="https://wa.me/+917042240012?text=Hi%21%20I%20am%20interested%20in%20your%20Services."

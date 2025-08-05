@@ -39,7 +39,15 @@ function Header() {
             <li><NavLink to='/Employers' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>For Employers</NavLink></li>
             {/* <li><NavLink to='/Plans' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Plans</NavLink></li> */}
             {/* <li><NavLink to='/Openings' onClick={toggleMenu} className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}>Job Openings</NavLink></li>*/}
-            <li><button className='btn' onClick={() => {setPopupActive(true);toggleMenu(); } }>Get Started</button></li>
+            <li><a
+              href="https://wa.me/+917042240012?text=Hi%21%20I%20am%20interested%20in%20your%20Services."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+              style={{ textDecoration: 'none' }}
+            >
+              Get Started
+            </a></li>
         </ul>
     </nav>
     <div className="wrapper"></div>
